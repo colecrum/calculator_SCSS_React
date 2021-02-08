@@ -79,7 +79,7 @@ class Calculator extends React.Component {
       const value = e.target.value;
       const { currentValue, formula, evaluated } = this.state;
       this.setState({ evaluated: false });
-      if (currentValue > 21) {
+      if (currentValue > 1000) {
         this.maxDigitWarning();
       } else if (evaluated) {
         this.setState({ currentValue: value, formula: value !== "0" ? value : "" });
@@ -161,7 +161,23 @@ class Calculator extends React.Component {
         evaluate: this.onEquals,
         initialize: this.onClear,
         numbers: this.handleNumbers,
-        operators: this.handleOperators }))));
+        operators: this.handleOperators })), /*#__PURE__*/
+
+
+
+      React.createElement("hr", null), /*#__PURE__*/
+      React.createElement("div", { id: "contact-section" }, "\xA0 \xA0 \xA0 ", /*#__PURE__*/
+      React.createElement("section", { id: "contact", class: "container" }, /*#__PURE__*/
+      React.createElement("h2", { id: "contact-title" }, "Designed & Coded by Cole Crum"), /*#__PURE__*/
+      React.createElement("div", { class: "contact-links" }, /*#__PURE__*/
+
+      React.createElement("a", { id: "profile-link", href: "https://github.com/colecrum?tab=repositories", target: "_blank", class: "btn contact-details" }, /*#__PURE__*/React.createElement("img", { id: "git-logo", class: "contact-img", src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHXk1n8mQe3sbaaMDgiqtSeSC8QySxLfgkaA&usqp=CAU", title: "GitHub" })), /*#__PURE__*/
+      React.createElement("a", { href: "https://codepen.io/colecrum", target: "_blank", class: "btn contact-details" }, /*#__PURE__*/React.createElement("img", { class: "contact-img", src: "https://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png", title: "CodePen" })), /*#__PURE__*/
+      React.createElement("a", { href: "mailto:colemcrum@gmail.com", target: "_blank", class: "btn contact-details" }, /*#__PURE__*/React.createElement("img", { class: "contact-img", src: "https://lh3.googleusercontent.com/VS3B_qhOFTYsdyNfnlr98zg3HNjB_Gcs9bxVnaQO9MysAoBOXMHATClhRviImKKJV8RV-0s7hl8KeVQcij5Iagb1exHzt40x679l8Q=w0", title: "Email" })), /*#__PURE__*/
+      React.createElement("a", { href: "tel:512-517-8503", target: "_blank", class: "btn contact-details" }, /*#__PURE__*/React.createElement("img", { class: "contact-img", src: "https://cdn4.iconfinder.com/data/icons/phones-colored/48/JD-32-512.png", title: "Phone" }))), "\xA0 \xA0 \xA0 "), "\xA0 \xA0 ")));
+
+
+
 
 
 

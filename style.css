@@ -51,3 +51,24 @@ button:hover {
 .midSize {
   width: 180px;
 }
+
+#contact-section {
+  color: black;
+  text-align: center;
+}
+
+.contact-links {
+  height: auto;
+  width: 100%;
+}
+
+.contact-img {
+  height: 50px;
+  width: 50px;
+  padding: 15px;
+}
+
+#git-logo {
+  height: 50px;
+  width: 75px;
+}
