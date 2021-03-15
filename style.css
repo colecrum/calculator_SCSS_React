@@ -62,6 +62,11 @@ button:hover {
   width: 180px;
 }
 
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  #root {
+    height: auto;
+  }
+}
 /* SIGN-OFF --------------------------------------------*/
 /*designed by & contact*/
 #contact-section {
@@ -93,6 +98,11 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  .contact-links {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) and (orientation: landscape) {
   .contact-links {
     width: 100%;
   }
